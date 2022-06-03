@@ -9,7 +9,7 @@ let elMovieInfoModal = $(".movie-info-modal");
 
 
 let renderNews = function() {
-    fetch("https://newsapi.org/v2/everything?q=tesla&from=2022-05-02&sortBy=publishedAt&apiKey=40351ed0f84c4aecb6bfbe7770692140")
+    fetch("https://newsapi.org/v2/everything?q=tesla&from=2022-05-03&sortBy=publishedAt&apiKey=07d23a0f6ead455aadc84e15f2ecb4b2")
         .then((response) => { return response.json() })
         .then((data) => {
 
